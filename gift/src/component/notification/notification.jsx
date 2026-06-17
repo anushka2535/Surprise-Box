@@ -14,7 +14,7 @@ function Notifications() {
 
     useEffect(() => {
 
-    fetch("http://localhost:5000/cart/orders")
+    fetch("https://surprise-box.onrender.com/cart/orders")
         .then(res => res.json())
         .then(data => setNotifications(data))
         .catch(err => console.log(err));

@@ -25,7 +25,7 @@ function Cart({ cart, setCart }) {
             for (const item of cart) {
 
                 const response = await fetch(
-                    "http://localhost:5000/cart/add",
+                    "https://surprise-box.onrender.com/cart/add",
                     {
                         method: "POST",
                         headers: {
@@ -176,7 +176,7 @@ function Cart({ cart, setCart }) {
                                 onClick={async () => {
                                     const userId = localStorage.getItem("userId");
 
-                                    const res = await fetch(`http://localhost:5000/address/${userId}`);
+                                    const res = await fetch(`https://surprise-box.onrender.com/address/${userId}`);
                                     const address = await res.json();
 
                                     if (!address || !address.address || Object.keys(address).length === 0) {

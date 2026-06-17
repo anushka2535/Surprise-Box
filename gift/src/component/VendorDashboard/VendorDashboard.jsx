@@ -14,7 +14,7 @@ import "./VendorDashboard.css";
 
 function VendorDashboard() {
     const navigate = useNavigate();
-    const API = "http://localhost:5000";
+    const API = "https://surprise-box.onrender.com";
 
     const [activeSection, setActiveSection] = useState("products");
     // State for products

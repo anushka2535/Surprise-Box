@@ -31,7 +31,7 @@ import "../About/About";
 
 function Shop({ wishlist, setWishlist, cart, setCart }) {
 
-  const API = "http://localhost:5000";
+  const API = "https://surprise-box.onrender.com";
 
   const [products, setProducts] = useState([]);
   const [displayProducts, setDisplayProducts] = useState([]);

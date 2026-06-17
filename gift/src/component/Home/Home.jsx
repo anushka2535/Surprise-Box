@@ -27,7 +27,7 @@ function Home() {
 
     try {
       const res = await axios.get(
-        `http://localhost:3000/product/search?q=${value}`
+        `https://surprise-box.onrender.com/product/search?q=${value}`
       );
 
       setProducts(res.data);

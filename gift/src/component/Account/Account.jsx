@@ -30,7 +30,7 @@ function Account() {
       return;
     }
 
-    fetch(`http://localhost:5000/${userId}`)
+    fetch(`https://surprise-box.onrender.com/${userId}`)
 
       .then((res) => res.json())
 
@@ -47,7 +47,7 @@ function Account() {
 
         const userId = localStorage.getItem("userId");
 
-        fetch(`http://localhost:5000/cart/user/${userId}`)
+        fetch(`https://surprise-box.onrender.com/cart/user/${userId}`)
           .then((res) => res.json())
           .then((orders) => {
             setCustomerData((prev) => ({
@@ -79,7 +79,7 @@ function Account() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/address/add",
+        "https://surprise-box.onrender.com/address/add",
         {
           method: "POST",
           headers: {

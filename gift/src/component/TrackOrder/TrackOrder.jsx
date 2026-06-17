@@ -15,7 +15,7 @@ function TrackOrder() {
 
       try {
         const res = await fetch(
-          `http://localhost:5000/cart/order/${orderId}`
+          `https://surprise-box.onrender.com/cart/order/${orderId}`
         );
 
         console.log("STATUS:", res.status);
