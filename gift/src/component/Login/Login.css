@@ -1,0 +1,60 @@
+.background1{
+    background-image: url("../../assets/pinky.jpg");
+    background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;   
+}
+.form-content{
+    display:flex;
+    
+}
+.form-container{
+    border:4px solid rgba(255, 255, 255, 0.849);
+    border-radius: 15px;
+    width:30%;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+    
+}
+.form-container h4{
+    margin-top: 60px;
+    text-align: center;
+    color: white; 
+    font-weight:bolder;
+}
+.form-container h5{
+     text-align: center;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .form-input input{
+    width:100%;
+    margin-left:0px;
+    margin-top:30px;
+    border-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding: 5px;
+}
+.form-check{
+   
+    margin-top: 8px;
+    color:white;  
+}
+ .form-link a{
+    color: white;
+}
+ .form-button button{
+   border-color: white;
+    border-radius:10px;
+    background-color:pink;
+    color:white;
+    width:100%;
+    margin-top: 30px;
+    margin-bottom:20%;
+    padding:10px;
+    
+}
+

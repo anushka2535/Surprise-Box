@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;     /* vertically center button + heading */
+  gap: 1rem;               /* spacing between button and heading */
+  background: rgb(249, 214, 220);
+  padding: 1rem;
+}
+
+.back-btn {
+  background: rgb(198, 61, 107);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: .3rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.back-btn:hover {
+  background: rgb(150, 40, 80);
+}
+
+.review .review-header .heading {
+  margin: 0;               /* remove default margin so it aligns neatly */
+}
+
+
+.review .review-header.heading{
+  text-align: center;
+  background: rgb(249, 214, 220);
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+.review .review-header.heading span{
+  color: rgb(198, 61, 107);
+}
+.review .box-containers{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  
+  }
+
+.review .box-containers .box{
+  flex: 1 1 30rem;
+  box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0,.1);
+  border-radius: .5rem;
+  border: .1rem solid rgba(0,0,0,.1) ;
+  padding: 3rem 2rem;
+  position: relative;
+  
+
+}
+
+.review .box-containers .box .star i{
+    color:rgb(198, 61, 107) ;
+    font-size: 2rem;
+}
+
+.review .box-containers .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.review .box-containers .box .user img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+
+
+
+

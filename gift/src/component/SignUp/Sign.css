@@ -1,0 +1,59 @@
+.background{
+    background-image: url("../../assets/rose.webp");
+    background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;   
+}
+.form-content{
+    display:flex;
+    
+}
+.form1-container{
+    border:4px solid rgba(255, 255, 255, 0.849);
+    border-radius: 15px;
+    width:30%;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+    
+}
+.form1-container h4{
+    margin-top: 60px;
+    text-align: center;
+    color: white; 
+    font-weight:bolder;
+}
+.form1-container h5{
+     text-align: center;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .form1-input input{
+    width:100%;
+    margin-left:0px;
+    margin-top:30px;
+    border-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding: 5px;
+}
+.form1-check{
+   
+    margin-top: 8px;
+    color:white;  
+}
+ .form1-link a{
+    color: white;
+}
+ .form1-button button{
+   border-color: white;
+    border-radius:10px;
+    background-color:pink;
+    color:white;
+    width:100%;
+    margin-top: 30px;
+    margin-bottom:40%;
+    padding:10px;
+    
+}

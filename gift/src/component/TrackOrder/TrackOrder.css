@@ -1,0 +1,96 @@
+.track-order {
+  padding: 40px;
+  background: #fdf6f9; /* soft festive background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track-order h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.track-order p {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+.track-order strong {
+  color: #222;
+}
+
+.back-btn {
+  align-self: flex-start;
+  background: #ff6699;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background: #e05588;
+}
+
+/* Progress bar style for tracking steps */
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.progress-step {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.progress-step::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  background: #ddd;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.progress-step.active::before {
+  background: #ff6699;
+}
+
+.progress-step span {
+  display: block;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.progress-line {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #ddd;
+  z-index: 0;
+}
+
+.progress-line.active {
+  background: #ff6699;
+}

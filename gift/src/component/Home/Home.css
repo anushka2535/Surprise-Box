@@ -1,0 +1,60 @@
+.logo-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;   /* adjust size */
+  height: 36px;
+  border-radius: 20%;
+  background-color: rgb(198, 61, 107); /* Bootstrap red */
+  color: white;
+  font-weight: bold;
+}
+
+.fig{
+    background-color: rgb(249, 214, 220);
+}
+
+.hero-col{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 7px;
+    /*background-color: rgb(249, 214, 220); */
+
+}
+
+.get-started-btn {
+  background-color: rgb(198, 61, 107); /* custom pink shade */
+  border-radius: 50rem; /* pill shape */
+  color: #fff;          /* text color */
+  font-weight: 500;     /* optional: make text a bit bolder */
+}
+
+/* FAQ Section Styling */
+#faqAccordion .accordion-button {
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+  border: none;
+  box-shadow: none;
+}
+
+#faqAccordion .accordion-button:not(.collapsed) {
+  background-color: rgb(198, 61, 107); /* pink accent */
+  color: #fff;
+}
+
+#faqAccordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+#faqAccordion .accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#faqAccordion .accordion-body {
+  background-color: #f9f9f9;
+  color: #555;
+}

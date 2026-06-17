@@ -1,0 +1,153 @@
+.account-page {
+  padding: 40px;
+  background: #fdf6f9; /* soft festive background */
+  min-height: 100vh;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;          /* space between button and heading */
+  margin-bottom: 30px;
+  background-color: rgb(249, 214, 220);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.back-btn {
+  background: #ff6699;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background: #e05588;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.heading span {
+  color: #ff6699;
+}
+
+.profile-info {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-info p {
+  font-size: 1rem;
+  color: #555;
+  margin: 8px 0;
+}
+
+.orders-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.orders-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.order-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.order-item:hover {
+  transform: translateY(-5px);
+}
+
+.order-item p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 6px 0;
+}
+
+.order-item strong {
+  color: #222;
+}
+
+.track-btn {
+  background: #ff6699;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.track-btn:hover {
+  background: #e05588;
+}
+.address-btn {
+  margin-right: 10px;
+  background: #ff6699;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.modal-buttons{
+  display:flex;
+  justify-content: space-between;
+  border:none;
+  border-radius: 5px;
+  outline:none;
+  padding:10px;
+  cursor: pointer;
+}
+.title{
+    background-color:#ff6699;
+    padding:10px;
+    color:white;
+    border-radius: 5px;
+}

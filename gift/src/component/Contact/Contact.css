@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contact-header{
+    display: flex;
+  align-items: center;     /* vertically center button + heading */
+  gap: 1rem;               /* spacing between button and heading */
+  background: rgb(249, 214, 220);
+  padding: 1rem;
+}
+
+.contacts .heading{
+  text-align: center;
+  background: rgb(249, 214, 220);
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+.contacts  .heading span{
+  color: rgb(198, 61, 107);
+  text-align: center;
+}
+
+.contacts .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contacts .row form{
+    flex:1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border: 1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+.contacts .row .image{
+    flex: 1 1 40rem;
+    margin-top: 0;
+
+}
+.contacts .row .image img{
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+.contacts .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1 rem solid rgba(0,0,0,.1);
+    border-radius: .5rem ;
+    margin: .7rem 0;
+    width: 100%;
+}
+
+.contacts .row form .box:focus{
+    border-color: rgb(198, 61, 107);
+}
+
+.contacts .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+
+
+

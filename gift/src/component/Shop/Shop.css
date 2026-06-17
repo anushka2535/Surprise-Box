@@ -1,0 +1,224 @@
+html,body,#root{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+  
+}
+
+.nav{
+  background-color: rgb(249, 214, 220);
+}
+
+.nav .icons {
+  display: flex;       /* enables gap */
+  gap: 1rem;
+  
+}
+
+.nav .icons a {
+  font-size: 1.2rem;   /* optional: make icons bigger */
+  text-decoration: none;
+  color: rgb(198, 61, 107);
+  cursor: pointer;
+}
+
+.nav .icons i:hover {
+  color: hotpink;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+
+
+.search{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.product .box-cont .box .image .icon button {
+  flex: 1;                        /* let buttons share space evenly */
+  padding: 0.5rem 1rem;           /* breathing room */
+  border: none;                   /* remove default border */
+  border-radius: 0.3rem;          /* rounded corners */
+  background-color: rgb(198, 61, 107); /* your theme pink */
+  color: #fff;                    /* white text/icons */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;      /* smooth hover effect */
+}
+
+.product .box-cont .box .image .icon button:hover {
+  background-color: hotpink;      /* brighter hover */
+  transform: scale(1.05);         /* subtle zoom */
+}
+
+.product .box-cont .box .image .icon .cart-btn {
+  flex: 2;                        /* make cart button wider */
+  font-weight: bold;
+}
+
+
+.icons-conta{
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+.icons-conta .icons{
+  background: #fff;
+  border: .1rem solid rgb(0,0,0,.1);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  
+ 
+}
+
+.product .heading{
+  text-align: center;
+  background: rgb(249, 214, 220);
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+.product .heading span{
+  color: rgb(198, 61, 107);
+}
+
+.product .box-cont{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  }
+
+.product .box-cont .box{
+  flex: 1 1 30rem;
+  box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0,.1);
+  border-radius: .5rem;
+  border: .1rem solid rgba(0,0,0,.1) ;
+  position: relative;
+  background: rgb(242, 230, 237);
+
+}
+
+
+.product .box-cont .box .discount{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 1px;;
+  font-size: 2rem;
+  color: rgb(198, 61, 107);
+  background-color: rgb(255, 51, 153, .05);
+  z-index: 1;
+  
+  border-radius: .5rem;
+}
+
+.product .box-cont .box .image{
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+  overflow:hidden;
+
+}
+
+.product .box-cont .box .image img{
+  height: 20rem;
+}
+
+.product .box-cont .box:hover .image img{
+  transform: scale(1.1);
+  
+}
+
+.product .box-cont .box .image .icon{
+  position: absolute;
+  
+  bottom: -7rem;left: 0; right: 0;
+  display: flex;
+  
+  gap: 0.1rem;
+  
+}
+
+.product .box-cont .box:hover .image .icon{
+  bottom: 0;
+}
+
+.product .box-cont .box .image .icon a{
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  width:3rem;
+  background: rgb(198, 61, 107);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product .box-cont .box .image .icon .cart-btn{
+  border-left: 1 rem solid #fff7;
+  border-right: 1 rem solid #fff7;
+  width: 100%;
+}
+
+.product .box-cont .box .image .icon a:hover{
+  background: #333;
+}
+
+.product .box-cont .box .content{
+  padding: 2 rem;
+  text-align: center;
+
+}
+
+.product .box-cont .box .content h4{
+  color: #333;
+}
+
+.product .box-cont .box .content .price{
+  color: rgb(198, 61, 107);
+  font-weight: bolder;
+  padding-top:  1rem;
+}
+
+.product .box-cont .box .content .price span{
+  color: #999;
+  font-weight: lighter;
+  text-decoration: line-through;
+}
+
+.suggestion-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  max-height: 250px;
+  overflow-y: auto;
+  position: absolute;
+  width: 300px; /* adjust if needed */
+  z-index: 1000;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f5f5f5;
+}
+
+
+
+
+
