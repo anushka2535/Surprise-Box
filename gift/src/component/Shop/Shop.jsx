@@ -146,8 +146,8 @@ function Shop({ wishlist, setWishlist, cart, setCart }) {
                 <Nav.Link as={NavLink} to="/Shop">Home</Nav.Link>
                 <Nav.Link as={NavLink} to="#product">Product</Nav.Link>
                 <Nav.Link as={NavLink} to="/Review">Review</Nav.Link>
-                <Nav.Link as={NavLink} to="/about">About</Nav.Link>
-                <Nav.Link as={NavLink} to="/Contact">Contact</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="/Contact">Contact</Nav.Link>
               </Nav>
               <div className="icons">
                 <Link to="/Wishlist"><i className="bi bi-heart-fill"></i></Link>
