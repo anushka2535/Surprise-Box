@@ -17,7 +17,7 @@ const Login = () => {
 });// prevent page reload
 
     try {
-      const response = await fetch("https://surprise-box.onrender.com:5000/login", {
+      const response = await fetch("https://surprise-box.onrender.com:5000/users/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

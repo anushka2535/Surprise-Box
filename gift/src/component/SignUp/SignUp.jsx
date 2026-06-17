@@ -39,7 +39,7 @@ const SignUp = () => {
     }
 
     try {
-      const response = await fetch("https://surprise-box.onrender.com/signup", {
+      const response = await fetch("https://surprise-box.onrender.com/users/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
