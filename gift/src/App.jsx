@@ -8,7 +8,7 @@ import Contact from "./component/Contact/Contact";
 import Wishlist from "./component/Wishlist/Wishlist";
 import Account from "./component/Account/Account";
 import Cart from "./component/Cart/Cart";
-import TrackOrder from "./component/trackOrder/TrackOrder";
+import TrackOrder from "./component/TrackOrder/TrackOrder";
 import Login from "./component/Login/Login";
 import SignUp from "./component/SignUp/SignUp";
 import Notification from "./component/notification/notification";
