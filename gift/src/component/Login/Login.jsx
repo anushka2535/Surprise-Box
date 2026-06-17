@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Login.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -109,7 +110,7 @@ const Login = () => {
               <button type="submit" >LOGIN</button>
 
               <p className="login-footer">
-                Don’t have an account? <a href="SignUp">Sign in</a>
+                Don’t have an account? <Link to="/SignUp">Sign in</Link>
               </p>
             </div>
 

@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 import Container from 'react-bootstrap/Container';
@@ -142,11 +143,11 @@ function Shop({ wishlist, setWishlist, cart, setCart }) {
                 style={{ maxHeight: '100px' }}
                 navbarScroll
               >
-                <Nav.Link href="/Shop">Home</Nav.Link>
-                <Nav.Link href="#product">Product</Nav.Link>
-                <Nav.Link href="/Review">Review</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="/Contact">Contact</Nav.Link>
+                <Nav.Link as={NavLink} to="/Shop">Home</Nav.Link>
+                <Nav.Link as={NavLink} to="#product">Product</Nav.Link>
+                <Nav.Link as={NavLink} to="/Review">Review</Nav.Link>
+                <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+                <Nav.Link as={NavLink} to="/Contact">Contact</Nav.Link>
               </Nav>
               <div className="icons">
                 <Link to="/Wishlist"><i className="bi bi-heart-fill"></i></Link>

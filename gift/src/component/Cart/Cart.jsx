@@ -25,7 +25,7 @@ function Cart({ cart, setCart }) {
             for (const item of cart) {
 
                 const response = await fetch(
-                    "https://surprise-box.onrender.com/cart/add",
+                    "http://https://surprise-box.onrender.com/cart/add",
                     {
                         method: "POST",
                         headers: {
